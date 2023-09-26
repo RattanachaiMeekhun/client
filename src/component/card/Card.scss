@@ -1,0 +1,48 @@
+@import "../../variables.scss";
+
+.card {
+  width: 250px;
+  height: 280px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 6px;
+  box-shadow: 0px 12px 32px 0px rgba(0, 0, 0, 0.05),
+    0px 2px 4px 0px rgba(28, 5, 77, 0.1);
+
+  & > .header {
+    border-radius: 6px;
+    height: 70%;
+    width: inherit;
+    border-radius: 6px 6px 0px 0px;
+  }
+  & > .body {
+    border-radius: 0px 0px 6px 6px;
+    height: 30%;
+    display: inline-flex;
+    padding: 0px 55px 10px 21px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 130%; /* 20.8px */
+    width: 100%;
+
+    gap: 2px;
+    & > .product-name {
+      color: #333;
+      font-style: normal;
+      font-weight: 600;
+    }
+    & > .product-price {
+      color: #666;
+      font-weight: 300;
+    }
+  }
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0px 2px 6px 1px $secondary-color-hover;
+    transform: translateY(-0.0625rem);
+  }
+}
