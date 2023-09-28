@@ -1,0 +1,113 @@
+@import '../../variables.scss';
+
+.farm-title{
+    color: #252525;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+
+}
+
+.status-title{
+    color:  #252525;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; 
+    text-align: start;
+}
+
+.date-title{
+    color: #999;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; 
+    text-align: start;
+}
+
+    .btn_pending{
+        border-radius: 8px;
+        border-color: $danger-color;
+        border: 1px solid $danger-color;
+        color: $danger-color;
+        background: #FFF;
+        font-weight: lighter;
+        font-size: 14px;
+        padding: 5px 15px;
+        transition-duration: 0.25s;
+        &:where(.css-dev-only-do-not-override-nnuwmp).ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover {
+            border-color: $danger-color;
+            color: #FFF;
+            background-color: $danger-color;
+            transition-duration: 0.25s;
+        }
+    }
+    .btn_rejected{
+        border-radius: 8px;
+        border-color: $danger-color;
+        border: 1px solid $danger-color;
+        color: $danger-color;
+        background: #FFF;
+        font-weight: lighter;
+        font-size: 14px;
+        padding: 5px 15px;
+        transition-duration: 0.25s;
+        &:where(.css-dev-only-do-not-override-nnuwmp).ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover {
+            border-color: $danger-color;
+            color: #FFF;
+            background-color: $danger-color;
+            transition-duration: 0.25s;
+        }
+    }
+    .btn_success{
+        border-radius: 8px;
+        border: 1px solid $primary-color;
+        color: $primary-color;
+        background: #FFF;
+        font-weight: lighter;
+        font-size: 14px;
+        padding: 5px 15px;
+        transition-duration: 0.25s;
+        &:where(.css-dev-only-do-not-override-nnuwmp).ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover {
+            border: 1px solid #FFF;
+            color: #FFF;
+            background: $primary-color;
+            transition-duration: 0.25s;
+        }
+       
+    }
+    .btn_shipping{
+        border-radius: 8px;
+        border: 1px solid $primary-color;
+        color: $primary-color;
+        background: #FFF;
+        font-weight: lighter;
+        font-size: 14px;
+        padding: 5px 15px;
+        transition-duration: 0.25s;
+        &:where(.css-dev-only-do-not-override-nnuwmp).ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover {
+            border: 1px solid #FFF;
+            color: #FFF;
+            background: $primary-color;
+            transition-duration: 0.25s;
+        }
+       
+    }
+    .btn_completed{
+        border-radius: 8px;
+        border: 1px solid $secondary-color;
+        color: $secondary-color;
+        background: #FFF;
+        font-weight: lighter;
+        font-size: 14px;
+        padding: 5px 15px;
+        transition-duration: 0.25s;
+        &:where(.css-dev-only-do-not-override-nnuwmp).ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover {
+            border: 1px solid #FFF;
+            color: #FFF;
+            background: $secondary-color;
+            transition-duration: 0.25s;
+        } 
+    }

@@ -94,6 +94,9 @@ const Navigatorbar = () => {
                   shape="circle"
                   size="large"
                   icon={<ShoppingCartOutlined />}
+                  onClick={() => {
+                    navigate("/order");
+                  }}
                 />
               </Badge>
             </Col>

@@ -9,4 +9,7 @@ export const APIS = {
   User: {
     image: "/tmp/images/user/",
   },
+  Order:{
+    getBuyerOrderByStatus:"/orders/getBuyerOrderByStatus"
+  }
 };
